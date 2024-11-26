@@ -7,13 +7,13 @@ coluna[0] => coluna[0].IN1
 coluna[1] => coluna[1].IN1
 coluna[2] => coluna[2].IN1
 coluna[3] => coluna[3].IN1
-sete_seg[0] << DecodificadorGray:decodificador.port1
-sete_seg[1] << DecodificadorGray:decodificador.port1
-sete_seg[2] << DecodificadorGray:decodificador.port1
-sete_seg[3] << DecodificadorGray:decodificador.port1
-sete_seg[4] << DecodificadorGray:decodificador.port1
-sete_seg[5] << DecodificadorGray:decodificador.port1
-sete_seg[6] << DecodificadorGray:decodificador.port1
+sete_seg[0] <= DecodificadorGray:decodificador.port1
+sete_seg[1] <= DecodificadorGray:decodificador.port1
+sete_seg[2] <= DecodificadorGray:decodificador.port1
+sete_seg[3] <= DecodificadorGray:decodificador.port1
+sete_seg[4] <= DecodificadorGray:decodificador.port1
+sete_seg[5] <= DecodificadorGray:decodificador.port1
+sete_seg[6] <= DecodificadorGray:decodificador.port1
 
 
 |CodTeclado|DriverTeclado:driver

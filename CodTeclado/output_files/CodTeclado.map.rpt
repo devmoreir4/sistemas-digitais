@@ -1,6 +1,6 @@
 Analysis & Synthesis report for CodTeclado
-Mon Nov 04 18:33:48 2024
-Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+Mon Nov 25 21:12:04 2024
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
 ---------------------
@@ -43,8 +43,8 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Mon Nov 04 18:33:48 2024       ;
-; Quartus Prime Version           ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
+; Analysis & Synthesis Status     ; Successful - Mon Nov 25 21:12:04 2024       ;
+; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; CodTeclado                                  ;
 ; Top-level Entity Name           ; CodTeclado                                  ;
 ; Family                          ; Cyclone V                                   ;
@@ -155,8 +155,8 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 16          ;
-; Maximum allowed            ; 10          ;
+; Number detected on machine ; 24          ;
+; Maximum allowed            ; 12          ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
 ; Maximum used               ; 1           ;
@@ -166,16 +166,16 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                              ;
-+----------------------------------+-----------------+------------------------+---------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                                ; Library ;
-+----------------------------------+-----------------+------------------------+---------------------------------------------------------------------------------------------+---------+
-; CodTeclado.v                     ; yes             ; User Verilog HDL File  ; C:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado/CodTeclado.v        ;         ;
-; DriverTeclado.v                  ; yes             ; User Verilog HDL File  ; C:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado/DriverTeclado.v     ;         ;
-; CodificadorGray.v                ; yes             ; User Verilog HDL File  ; C:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado/CodificadorGray.v   ;         ;
-; DecodificadorGray.v              ; yes             ; User Verilog HDL File  ; C:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado/DecodificadorGray.v ;         ;
-+----------------------------------+-----------------+------------------------+---------------------------------------------------------------------------------------------+---------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                             ;
++----------------------------------+-----------------+------------------------+--------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                               ; Library ;
++----------------------------------+-----------------+------------------------+--------------------------------------------------------------------------------------------+---------+
+; CodTeclado.v                     ; yes             ; User Verilog HDL File  ; C:/Users/Carlos/Documents/GitHub/matrix-keypad-to-Gray-code/CodTeclado/CodTeclado.v        ;         ;
+; DriverTeclado.v                  ; yes             ; User Verilog HDL File  ; C:/Users/Carlos/Documents/GitHub/matrix-keypad-to-Gray-code/CodTeclado/DriverTeclado.v     ;         ;
+; CodificadorGray.v                ; yes             ; User Verilog HDL File  ; C:/Users/Carlos/Documents/GitHub/matrix-keypad-to-Gray-code/CodTeclado/CodificadorGray.v   ;         ;
+; DecodificadorGray.v              ; yes             ; User Verilog HDL File  ; C:/Users/Carlos/Documents/GitHub/matrix-keypad-to-Gray-code/CodTeclado/DecodificadorGray.v ;         ;
++----------------------------------+-----------------+------------------------+--------------------------------------------------------------------------------------------+---------+
 
 
 +-----------------------------------------------------------------------------+
@@ -277,29 +277,29 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +-------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
-    Info: Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
-    Info: Processing started: Mon Nov 04 18:33:41 2024
+    Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+    Info: Processing started: Mon Nov 25 21:11:50 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off CodTeclado -c CodTeclado
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 10 of the 10 processors detected
+Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file codteclado.v
-    Info (12023): Found entity 1: CodTeclado File: C:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado/CodTeclado.v Line: 1
+    Info (12023): Found entity 1: CodTeclado File: C:/Users/Carlos/Documents/GitHub/matrix-keypad-to-Gray-code/CodTeclado/CodTeclado.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file driverteclado.v
-    Info (12023): Found entity 1: DriverTeclado File: C:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado/DriverTeclado.v Line: 1
+    Info (12023): Found entity 1: DriverTeclado File: C:/Users/Carlos/Documents/GitHub/matrix-keypad-to-Gray-code/CodTeclado/DriverTeclado.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file codificadorgray.v
-    Info (12023): Found entity 1: CodificadorGray File: C:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado/CodificadorGray.v Line: 1
+    Info (12023): Found entity 1: CodificadorGray File: C:/Users/Carlos/Documents/GitHub/matrix-keypad-to-Gray-code/CodTeclado/CodificadorGray.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file decodificadorgray.v
-    Info (12023): Found entity 1: DecodificadorGray File: C:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado/DecodificadorGray.v Line: 1
+    Info (12023): Found entity 1: DecodificadorGray File: C:/Users/Carlos/Documents/GitHub/matrix-keypad-to-Gray-code/CodTeclado/DecodificadorGray.v Line: 1
 Info (12127): Elaborating entity "CodTeclado" for the top level hierarchy
-Info (12128): Elaborating entity "DriverTeclado" for hierarchy "DriverTeclado:driver" File: C:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado/CodTeclado.v Line: 9
-Warning (10270): Verilog HDL Case Statement warning at DriverTeclado.v(14): incomplete case statement has no default case item File: C:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado/DriverTeclado.v Line: 14
-Warning (10240): Verilog HDL Always Construct warning at DriverTeclado.v(12): inferring latch(es) for variable "tecla", which holds its previous value in one or more paths through the always construct File: C:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado/DriverTeclado.v Line: 12
-Info (10041): Inferred latch for "tecla[0]" at DriverTeclado.v(12) File: C:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado/DriverTeclado.v Line: 12
-Info (10041): Inferred latch for "tecla[1]" at DriverTeclado.v(12) File: C:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado/DriverTeclado.v Line: 12
-Info (10041): Inferred latch for "tecla[2]" at DriverTeclado.v(12) File: C:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado/DriverTeclado.v Line: 12
-Info (10041): Inferred latch for "tecla[3]" at DriverTeclado.v(12) File: C:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado/DriverTeclado.v Line: 12
-Info (12128): Elaborating entity "CodificadorGray" for hierarchy "CodificadorGray:codificador" File: C:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado/CodTeclado.v Line: 11
-Info (12128): Elaborating entity "DecodificadorGray" for hierarchy "DecodificadorGray:decodificador" File: C:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado/CodTeclado.v Line: 13
+Info (12128): Elaborating entity "DriverTeclado" for hierarchy "DriverTeclado:driver" File: C:/Users/Carlos/Documents/GitHub/matrix-keypad-to-Gray-code/CodTeclado/CodTeclado.v Line: 9
+Warning (10270): Verilog HDL Case Statement warning at DriverTeclado.v(14): incomplete case statement has no default case item File: C:/Users/Carlos/Documents/GitHub/matrix-keypad-to-Gray-code/CodTeclado/DriverTeclado.v Line: 14
+Warning (10240): Verilog HDL Always Construct warning at DriverTeclado.v(12): inferring latch(es) for variable "tecla", which holds its previous value in one or more paths through the always construct File: C:/Users/Carlos/Documents/GitHub/matrix-keypad-to-Gray-code/CodTeclado/DriverTeclado.v Line: 12
+Info (10041): Inferred latch for "tecla[0]" at DriverTeclado.v(12) File: C:/Users/Carlos/Documents/GitHub/matrix-keypad-to-Gray-code/CodTeclado/DriverTeclado.v Line: 12
+Info (10041): Inferred latch for "tecla[1]" at DriverTeclado.v(12) File: C:/Users/Carlos/Documents/GitHub/matrix-keypad-to-Gray-code/CodTeclado/DriverTeclado.v Line: 12
+Info (10041): Inferred latch for "tecla[2]" at DriverTeclado.v(12) File: C:/Users/Carlos/Documents/GitHub/matrix-keypad-to-Gray-code/CodTeclado/DriverTeclado.v Line: 12
+Info (10041): Inferred latch for "tecla[3]" at DriverTeclado.v(12) File: C:/Users/Carlos/Documents/GitHub/matrix-keypad-to-Gray-code/CodTeclado/DriverTeclado.v Line: 12
+Info (12128): Elaborating entity "CodificadorGray" for hierarchy "CodificadorGray:codificador" File: C:/Users/Carlos/Documents/GitHub/matrix-keypad-to-Gray-code/CodTeclado/CodTeclado.v Line: 11
+Info (12128): Elaborating entity "DecodificadorGray" for hierarchy "DecodificadorGray:decodificador" File: C:/Users/Carlos/Documents/GitHub/matrix-keypad-to-Gray-code/CodTeclado/CodTeclado.v Line: 13
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
@@ -308,9 +308,9 @@ Info (21057): Implemented 27 device resources after synthesis - the final resour
     Info (21059): Implemented 7 output pins
     Info (21061): Implemented 12 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 3 warnings
-    Info: Peak virtual memory: 4841 megabytes
-    Info: Processing ended: Mon Nov 04 18:33:49 2024
-    Info: Elapsed time: 00:00:08
-    Info: Total CPU time (on all processors): 00:00:03
+    Info: Peak virtual memory: 4836 megabytes
+    Info: Processing ended: Mon Nov 25 21:12:04 2024
+    Info: Elapsed time: 00:00:14
+    Info: Total CPU time (on all processors): 00:00:35
 
 
